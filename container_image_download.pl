@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-my $image_name = "rockylinux";  # Change to the image you want
+my $image_name = "rockylinux:9";  # Change to the image you want
 
 # Check if the image is already downloaded
 my $existing_images = `podman images --format "{{.Repository}}:{{.Tag}}"`;
